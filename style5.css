@@ -1,0 +1,54 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+
+.service-contain{
+  display: flex;
+  justify-content: center;
+}
+.hold-head{
+    display: flex;
+  justify-content: center; 
+  margin: 10px auto;
+}
+
+.service-hold{
+ position: relative;
+ width: max-content;
+}
+
+.service-hold::after{
+    content: "";
+    width: 180px;
+    height: 7px;
+    background: blue;
+    position: absolute;
+    top: 30px;
+    left: 0;
+}
+.purpose-content{
+    height: 90vh;
+    background: linear-gradient(to right,grey,white);
+    padding: 0px 30px;
+}
+.purpose-serv{
+    font-size: 30px;
+}
+.button-content{
+    padding: 20px 20px;
+}
+button{
+    padding: 10px 25px;
+    border-radius: 10px;
+    background-color: black;
+    color:white;
+    font-size: 15px;
+    border: 2px solid skyblue;
+    cursor: pointer;
+    font-weight: bold;
+}
+button:hover{
+    background-color: chocolate;
+}
